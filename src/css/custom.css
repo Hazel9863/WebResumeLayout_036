@@ -1,0 +1,39 @@
+main{
+    background-color: aquamarine;
+    height: 400px;
+    width: 1000px;
+}
+header{
+    background-color: beige;
+    overflow: hidden;
+}
+#menu{
+background-color: rgb(247, 204, 148);
+width: 500px;
+float: right;
+}
+#logo{
+background-color: rgb(185, 149, 103);
+width: 50px;
+float: left;
+}
+#slide{
+    background-color: aqua;
+    height: 100px;
+}
+#content{
+    background-color: rgb(159, 193, 193);
+    height: 100px;
+}
+.subcontent{
+    background-color: rgb(0, 208, 255);
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    margin: 10px;
+}
