@@ -1,37 +1,54 @@
 main{
     background-color: aquamarine;
-    height: 400px;
+    height: 760px;
     width: 1000px;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 header{
     background-color: beige;
     overflow: hidden;
 }
+body{
+    background-image: linear-gradient(to left bottom, #ebf4f3, #b4d4d7, #7eb3c4, #4b91b4, #1c6ea3);
+}
 #menu{
-background-color: rgb(247, 204, 148);
+/*background-color: rgb(247, 204, 148);*/
 width: 500px;
 float: right;
 }
 #logo{
-background-color: rgb(185, 149, 103);
+/*background-color: rgb(185, 149, 103);*/
 width: 50px;
 float: left;
+border-radius: 50%;
+
 }
 #slide{
     background-color: aqua;
-    height: 100px;
+    overflow: hidden;
 }
 #content{
     background-color: rgb(159, 193, 193);
-    height: 100px;
+    margin-left: 20px;
+    margin-right: auto;
 }
 .subcontent{
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(139, 225, 245);
+    float: left;
+    margin: 10px;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 2px;
+    padding: 5px;
 }
 ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    
 }
 li{
     float: left;
